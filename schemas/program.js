@@ -10,10 +10,37 @@ export default {
       description: 'Program Title'
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'title',
+        maxLength: 96
+      }
+    },
+    {
       name: 'location',
       title: 'Location',
       type: 'string',
       description: 'The location of the program'
+    },
+    {
+      name: 'caption',
+      title: 'Caption',
+      type: 'text',
+      description: 'A short caption to descibe the program'
+    },
+    {
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+      description: 'Description of the program'
+    },
+    {
+      name: 'block',
+      title: 'Body',
+      type: 'blockContent',
+      description: 'Description of the program'
     },
     {
       name: 'programImage',

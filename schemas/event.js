@@ -22,7 +22,7 @@ export default {
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'name',
+        source: 'title',
         maxLength: 100
       }
     },
@@ -33,22 +33,24 @@ export default {
       of: [{ type: 'eventTimes' }]
     },
     {
+      name: 'programs',
+      title: 'Programs',
+      description: 'Programs that the event takes place at',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'program' } }]
+    },
+    {
       name: 'description',
       title: 'Description',
-      type: 'array',
-      of: [
-        {
-          title: 'Block',
-          type: 'block',
-          styles: [{ title: 'Normal', value: 'normal' }],
-          lists: []
-        }
-      ]
+      type: 'text'
     },
     {
       name: 'image',
       title: 'Header Image',
       type: 'image',
+      options: {
+        hotspot: true
+      },
       description: 'Image to represent the event'
     }
   ],

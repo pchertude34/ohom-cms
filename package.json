@@ -14,12 +14,12 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^0.139.4",
-    "@sanity/components": "^0.139.5",
-    "@sanity/core": "^0.139.3",
-    "@sanity/default-layout": "^0.139.5",
-    "@sanity/default-login": "^0.139.0",
-    "@sanity/desk-tool": "^0.139.5",
+    "@sanity/base": "^0.140.9",
+    "@sanity/components": "^0.140.9",
+    "@sanity/core": "^0.140.9",
+    "@sanity/default-layout": "^0.140.9",
+    "@sanity/default-login": "^0.140.3",
+    "@sanity/desk-tool": "^0.140.9",
     "moment": "^2.23.0",
     "prop-types": "^15.6",
     "react": "^16.2",
