@@ -11,6 +11,7 @@ import eventTimes from './eventTimes';
 import program from './program';
 import sponsor from './sponsor';
 import teamMember from './teamMember';
+import testimony from './testimony';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -26,6 +27,7 @@ export default createSchema({
     eventTimes,
     program,
     sponsor,
-    teamMember
+    teamMember,
+    testimony
   ])
 });
