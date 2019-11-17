@@ -31,13 +31,7 @@ export default {
       description: 'A short caption to descibe the program'
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
-      description: 'Description of the program'
-    },
-    {
-      name: 'block',
+      name: 'body',
       title: 'Body',
       type: 'blockContent',
       description: 'Description of the program'

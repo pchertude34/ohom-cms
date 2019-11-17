@@ -27,6 +27,13 @@ export default {
       description: 'Featured programs to display on the home page',
       type: 'array',
       of: [{ type: 'reference', to: { type: 'program' } }]
+    },
+    {
+      name: 'featuredTestimonies',
+      title: 'Featured Testimonies',
+      description: 'Feature testimonies to display on the home page',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'testimony' } }]
     }
   ],
   preview: {
