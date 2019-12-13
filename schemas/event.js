@@ -40,9 +40,15 @@ export default {
       of: [{ type: 'reference', to: { type: 'program' } }]
     },
     {
+      name: 'caption',
+      title: 'Caption',
+      type: 'text',
+      description: 'A short caption to describe the event (1 to 2 sentences)'
+    },
+    {
       name: 'description',
       title: 'Description',
-      type: 'text'
+      type: 'blockContent'
     },
     {
       name: 'image',
@@ -52,6 +58,12 @@ export default {
         hotspot: true
       },
       description: 'Image to represent the event'
+    },
+    {
+      name: 'photoAlbum',
+      title: 'Photo Album',
+      type: 'array',
+      of: [{ type: 'image' }]
     }
   ],
   preview: {
